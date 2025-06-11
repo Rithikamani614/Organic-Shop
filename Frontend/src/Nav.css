@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+
+.ten {
+    position: sticky ;
+    top: 0;
+    background-color: white; 
+    z-index: 10; 
+  }
+.nav2{
+    margin-top: 20px;
+}
+.head{
+    width: 100%;
+    display: block;
+}
+.rw1{
+    margin: 0 !important;
+        --bs-gutter-x: 0;
+        --bs-gutter-y: 0;
+}
+.div1,.div2{
+    display: inline-block;
+}
+.bg{
+    background-color: #43aa5c;;
+    padding-top: 6px;
+    height: 40px;
+    width: 100%;
+}
+.btn1{
+    background-color: #f8ca38;
+    color: #164333;
+    padding: 15px 33px;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+    margin-right: -10px;
+}
+.btn1:hover{
+    background-color: #164333;
+    color: #f8ca38;
+}
+.li2,.li1{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.li1 li{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-right:35px; 
+}
+.div1{
+    margin-left: -22px;
+}
+.div2{
+    margin-left:420px;
+}
+.li2 li{
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: #7c858c ;
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+.btn3{
+    position: relative; 
+    right: 38px;
+}
+.btn2{
+    position: relative;
+    right: 55px;
+}
+.nav1{
+    position: relative;   
+}
+.img1{
+    position: relative;
+    left: 10px;
+}
+.navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    color: #212529;  
+  }
+  .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+    color:#43aa5c;    
+  }
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar-nav .nav-item.dropdown .dropdown-menu {
+    display: none;
+    transition: opacity 0.3s ease;
+  }
+.custom-offcanvas{
+    width: 40% !important;
+}
+.count{
+    position: absolute;
+    top: 10px !important;
+    right: -5px;
+    color: #ffffff;
+    background-color: #43aa5c !important;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 50%;
+}
+.custom-dropdown .nav-link {
+    color:black ;
+  }
+.offcanvas-backdrop.show{
+    opacity: 0.9;
+}
+.li3 {
+    list-style: none;
+  }
+  .li4{
+    display: flex;
+    list-style: none;
+  }
+  .li4 li{
+  margin-right: 41px;
+  }
+   .nav-link {
+    color:black ;
+  }
+  .p3{
+   display: inline;
+  }
+   .col1{
+    margin-top: 30px;
+  }
+  .sechli1{
+    color: #ffffff;
+  }
+  .sechli1:hover{
+    cursor: pointer;
+    color: #f8ca38;
+  }
+
+.dropdown-item.active,.dropdown-item:active{
+      background-color: white;
+  }
+  
+@media screen and (min-width: 769px){
+    .icon1{
+        visibility:hidden;  
+     }  
+}
+@media screen and (max-width: 1024px){
+    .btn1{
+        visibility:hidden;  
+     }  
+}
+
+@media screen and (max-width: 768px) {
+    .btn1 {
+        visibility: hidden;
+    }
+    .bg{
+        visibility: hidden;
+     }
+    .nav1{
+        visibility: hidden;
+    }
+    .icon1{
+       visibility: inherit;
+       border: none;
+       background-color: white;
+     }
+     .li1 li{
+        color: black;
+     }
+     .li1{
+        display: block;
+     }
+     .btn3{
+        left: 106px !important;
+     } 
+     .btn2{
+        left:87px !important;
+     }
+     
+
+}
+@media screen and (max-width: 426px) {
+    .btn1 {
+        visibility: hidden;   
+    }
+    .nav1{
+        visibility: hidden;
+    }
+     .icon1{
+       visibility: inherit;
+       border: none;
+       position: relative;
+       right: 2px;
+     }
+    .custom-offcanvas{
+        width: 70% !important;       
+    }
+   
+     .btn2{
+        position: relative;
+        left: 100px !important;
+     }
+     .btn3{
+        position: relative;
+        left: 100px !important;
+     }
+}
+@media screen and (max-width: 376px) {
+    .btn1 {
+        visibility: hidden;
+        padding-left: 0;
+    }
+    .nav1{
+
+        visibility: hidden;
+    }
+     .icon1{
+       visibility: inherit;
+       border: none;
+       position: relative;
+       right:20px;
+     }
+     .btn2{
+        position: relative;
+        left: 45px !important;
+     }
+     .btn3{
+        position: relative;
+        left: 50px !important;
+    }
+    /* .count{
+        left: 285px;
+     } */
+     .custom-offcanvas{
+        width: 80% !important;
+    }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        --bs-gutter-x: -0.5rem;
+    }
+}
+@media screen and (max-width: 320px) {
+    .btn1 {
+        visibility: hidden;
+        padding: 0;    
+    }
+    .nav1{
+
+        visibility: hidden;
+    }
+     .icon1{
+       visibility: inherit;
+       border: none;
+       position: relative;
+       right: 20px ; 
+     }
+     .div2{
+        margin: 0 ;
+     }
+     .btn2{
+        position: relative;
+        left: 10px !important;
+     }
+     .btn3{
+        position: relative;
+        left: 1px !important;
+     }
+     .custom-offcanvas{
+        width: 90% !important;
+    }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl,.container-xs {
+        /* --bs-gutter-x: -0.5rem !important; */
+        margin: 0 !important;
+        --bs-gutter-x: 0rem !important;
+        --bs-gutter-y: 0rem !important;
+        padding: 0 !important;
+    }
+ 
+
+}
+@media screen and (max-width: 1024px){
+    .div1{
+        display: inline-block;
+    }
+    .div2{
+        display: inline-block;
+        margin:0;
+        padding-left: 74px !important;
+    }
+     .btn3{
+        position: relative;
+        left: 126px;
+    }
+    .btn2{
+        position: relative;
+        left: 100px;
+    }
+    .count{
+        right:-2px !important;
+    }
+    .navbar-nav{
+        margin-left: 85px;
+    }
+}
+ @media screen and (max-width: 1440px){
+    .div1{
+        display: inline-block;
+    }
+    .div2{
+        display: inline-block;
+        margin:0;
+       padding-left: 434px;
+    }
+    .btn1{
+       position: relative;
+       left: 18px; 
+    }
+    .count{
+        right:-4px;
+    }
+    .div4{
+        display: inline-block !important;
+        margin: 0;
+    } 
+    .div5{
+        display: inline-block !important;
+        margin: 0;
+    }
+}
+@media screen and (min-width: 1441px){
+
+    .custom-offcanvas{
+        width: 20% !important;
+    }
+}
+
+ 
+
